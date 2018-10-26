@@ -11,6 +11,11 @@ public class PrecisePoint {
 		Y = y;
 	}
 
+	public PrecisePoint(double x, double y) {
+		X = BigDecimal.valueOf(x);
+		Y = BigDecimal.valueOf(y);
+	}
+
 	public BigDecimal getX() {
 		return X;
 	}
